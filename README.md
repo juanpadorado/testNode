@@ -31,7 +31,13 @@ Se debe de instalar las dependencias con el siguiente comando:
 npm install
 ```
 
-Posteriormente, para desplegar se debe de ejecutar el siguiente comando: (Se debe de tener configurado un perfil y usuario de AWS en el equipo usado para realizar el despliegue)
+Para ejecutar el proyecto en un entorno local, se debe de ejecutar el siguiente comando:
+
+```
+serverless offline start
+```
+
+Para desplegar el proyecto en AWS, se debe de ejecutar el siguiente comando: (Se debe de tener configurado un perfil y usuario de AWS en el equipo usado para realizar el despliegue)
 
 ```
 serverless deploy
